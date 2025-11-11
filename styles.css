@@ -1,0 +1,52 @@
+.slider_bullet_item {
+  transition: flex-grow 0.6s ease;
+}
+
+/* Hide scrollbar in all browsers */
+::-webkit-scrollbar {
+  display: none;
+}
+
+html,
+body {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+  overflow: -moz-scrollbars-none;
+}
+
+.lander-video-section {
+  opacity: 1;
+}
+
+/* Accordian Plus */
+.accordion_component.is-active .plus-animate {
+  height: 0%;
+}
+
+.plus-animate {
+  transition: height 0.2s ease;
+}
+
+.accordion_component.is-active .plus-static {
+  background-color: white;
+}
+
+.accordion_component.is-active .plus-animate {
+  background-color: white;
+}
+
+.accordion_component.is-active .plus-wrap {
+  background-color: #827127;
+}
+
+/* hide on laptop horizontal */
+
+@media screen and (max-width: 1366px) {
+  .laptop-h-none {
+    display: none !important;
+  }
+}
+
+li::marker {
+  color: #827127;
+}
